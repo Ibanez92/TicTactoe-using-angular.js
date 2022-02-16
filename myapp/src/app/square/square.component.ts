@@ -1,21 +1,18 @@
+import { Input } from '@angular/core';
 import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-square',
   template: `
-    <p>
-      {{ rando }}
-    </p>
+    <button>{{value}}</button>
   `,
-  styles: [
-  ]
+  styles: ['button { width: 100%; height: 100%; font-size: 5em !important; }']
 })
-export class SquareComponent {
+export class SquareComponent{
 
-  rando;
-
-  constructor() {
-    setInterval(() => this.rando = Math.random(), 500)
-  }
+  constructor() { }
+ 
+    @Input() value: 'X' | 'O'
+  
 
 }
