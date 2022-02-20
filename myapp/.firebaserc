@@ -1,14 +1,5 @@
 {
   "projects": {
     "default": "tictactoe-e327a"
-  },
-  "targets": {
-    "tictactoe-e327a": {
-      "hosting": {
-        "myapp": [
-          "tictactoe-e327a"
-        ]
-      }
-    }
   }
 }
