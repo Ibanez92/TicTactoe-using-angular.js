@@ -2,9 +2,19 @@ main {
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-gap: 0px;
+    justify-content: center;
+    align-items: center;
 }
   
 app-square {
-    border: 1px gray solid;
+    border: 1px rgb(81, 5, 88) solid;
     height: 200px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+button {
+    display: block; margin: 0 auto;
 }
