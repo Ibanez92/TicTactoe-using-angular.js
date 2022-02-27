@@ -4,7 +4,7 @@ TicTactoe game using angular.js and firebase to deploy/host the website.
 # Technology used
 HTML
 
-CSS
+SCSS
 
 Angular
 
